@@ -1,4 +1,6 @@
 ﻿using System;
+using ClassLibrary2;
+
 
 namespace ConsoleApp1
 {
@@ -6,8 +8,10 @@ namespace ConsoleApp1
 	{
 		static void Main(string[] args)
 		{
+			Calc calc = new Calc();
+
 			Console.WriteLine("small test");
-			Console.WriteLine("Hello World!");
+			Console.WriteLine($"Adding {calc.Add(3,4)}");
 			Console.ReadLine();
 		}
 	}
