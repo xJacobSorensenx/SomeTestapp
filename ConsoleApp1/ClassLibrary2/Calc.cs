@@ -10,5 +10,13 @@ namespace ClassLibrary2
 		{
 			return x + y;
 		}
+		public double Div(int x, int y)
+		{
+			return x / y;
+		}
+		public int Minus(int x, int y)
+		{
+			return x - y;
+		}
 	}
 }
